@@ -5,7 +5,6 @@ $email = $_POST['email'];
 $feedback = $_POST['feedback'];
 
 $toaddress = "feedback@example.com" ;
-$toaddress = "ramnik.dahiya@gmail.com";
 $subject = "Feedback from web site";
 
 $mailcontent = "Customer name: ".$name."\n".
